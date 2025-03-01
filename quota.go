@@ -88,6 +88,6 @@ func main(){
 	router.POST("/quota", postQuotas)
 
 
-	router.Run("localhost:8081")
+	router.Run("0.0.0.0:8080")
 
 }
